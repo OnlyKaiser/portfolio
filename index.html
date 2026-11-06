@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio - Muh. Tsaqif Taufiqurrahman</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">Tsaqif<span>.</span></a>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">Tentang</a></li>
+        <li><a href="#skills" class="nav-link">Keahlian</a></li>
+        <li><a href="#contact" class="nav-link">Kontak</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="hero-container">
+      <div class="hero-content">
+        <p class="hero-greeting">Halo, saya</p>
+        <h1 class="hero-name">Muh. Tsaqif<br /><span>Taufiqurrahman</span></h1>
+        <p class="hero-role">
+          <span class="role-text" id="role-text"></span><span class="cursor">|</span>
+        </p>
+        <p class="hero-desc">
+          Fresh graduate Teknik Informatika dari Universitas Dipa Makassar.
+          Bersemangat membangun solusi digital yang berdampak nyata.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Hubungi Saya</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://instagram.com/boringnugly" target="_blank" rel="noopener" aria-label="Instagram" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/6285399651522" target="_blank" rel="noopener" aria-label="WhatsApp" class="social-link"><i class="fab fa-whatsapp"></i></a>
+          <a href="mailto:tsaqiftaufiq16@gmail.com" aria-label="Email" class="social-link"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="hero-avatar">
+        <div class="avatar-wrapper">
+          <div class="avatar-placeholder">
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="avatar-ring"></div>
+          <div class="avatar-dots">
+            <span class="dot dot-1"></span>
+            <span class="dot dot-2"></span>
+            <span class="dot dot-3"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <a href="#about"><i class="fas fa-chevron-down"></i></a>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Tentang Saya</p>
+        <h2 class="section-title">Kenali Saya Lebih Dekat</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon"><i class="fas fa-graduation-cap"></i></div>
+          <h3>Pendidikan</h3>
+          <p class="about-degree">S1 Teknik Informatika</p>
+          <p class="about-school">Universitas Dipa Makassar</p>
+          <p class="about-year">2022 – 2026</p>
+        </div>
+        <div class="about-text">
+          <p>
+            Saya adalah mahasiswa tingkat akhir Teknik Informatika di Universitas Dipa Makassar
+            dengan passion besar di bidang pengembangan web dan pemrograman. Saya menguasai
+            beberapa bahasa dan teknologi seperti JavaScript, TypeScript, Python, HTML, CSS,
+            serta database MySQL dan SQL.
+          </p>
+          <p>
+            Selama kuliah, saya aktif mengasah kemampuan teknis melalui proyek-proyek mandiri
+            dan terus belajar teknologi terbaru. Saya percaya bahwa konsistensi dan rasa ingin
+            tahu adalah kunci berkembang di dunia teknologi yang terus berubah.
+          </p>
+          <p>
+            Saat ini saya sedang mencari kesempatan kerja pertama untuk menerapkan ilmu yang
+            telah saya pelajari dan berkontribusi nyata dalam tim yang solid dan inovatif.
+            Saya juga mampu berkomunikasi dalam Bahasa Inggris.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Keahlian</p>
+        <h2 class="section-title">Yang Saya Kuasai</h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title"><i class="fas fa-code"></i> Frontend</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <span class="skill-name">HTML</span>
+              <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+              <span class="skill-pct">90%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">CSS</span>
+              <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+              <span class="skill-pct">85%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">JavaScript</span>
+              <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+              <span class="skill-pct">80%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">TypeScript</span>
+              <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+              <span class="skill-pct">70%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title"><i class="fas fa-terminal"></i> Programming</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <span class="skill-name">Python</span>
+              <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+              <span class="skill-pct">75%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Programming (OOP)</span>
+              <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+              <span class="skill-pct">70%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title"><i class="fas fa-database"></i> Database</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <span class="skill-name">MySQL</span>
+              <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+              <span class="skill-pct">80%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">SQL</span>
+              <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+              <span class="skill-pct">75%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title"><i class="fas fa-globe"></i> Bahasa & Soft Skills</h3>
+          <div class="skill-tags">
+            <span class="tag"><i class="fas fa-language"></i> English</span>
+            <span class="tag">Kerja Tim</span>
+            <span class="tag">Problem Solving</span>
+            <span class="tag">Komunikasi</span>
+            <span class="tag">Adaptif</span>
+            <span class="tag">Fast Learner</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Kontak</p>
+        <h2 class="section-title">Mari Terhubung</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="contact-desc">
+            Saya terbuka untuk peluang kerja, kolaborasi proyek, maupun sekadar berdiskusi
+            tentang teknologi. Jangan ragu untuk menghubungi saya!
+          </p>
+          <div class="contact-items">
+            <a href="mailto:tsaqiftaufiq16@gmail.com" class="contact-item">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <p class="contact-item-label">Email</p>
+                <p class="contact-item-value">tsaqiftaufiq16@gmail.com</p>
+              </div>
+            </a>
+            <a href="tel:085399651522" class="contact-item">
+              <div class="contact-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <p class="contact-item-label">Telepon / WhatsApp</p>
+                <p class="contact-item-value">0853-9965-1522</p>
+              </div>
+            </a>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <p class="contact-item-label">Alamat</p>
+                <p class="contact-item-value">Jl. Anggrek VI A No.17, Panakkukang, Makassar</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Nama</label>
+            <input type="text" id="name" name="name" placeholder="Nama Anda" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="email@contoh.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subjek</label>
+            <input type="text" id="subject" name="subject" placeholder="Perihal pesan Anda" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fas fa-paper-plane"></i> Kirim Pesan
+          </button>
+          <p class="form-note" id="form-note"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Muh. Tsaqif Taufiqurrahman. Dibuat dengan <i class="fas fa-heart"></i> dan semangat belajar.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
